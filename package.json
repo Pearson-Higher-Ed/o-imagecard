@@ -1,0 +1,28 @@
+{
+  "name": "ReferenceCard",
+  "version": "0.0.1",
+  "description": "Reference Card",
+  "main": "ReferenceCard.js",
+  "dependencies": {
+    "css-loader": "^0.11.0",
+    "karma": "^0.12.31",
+    "karma-mocha": "^0.1.10",
+    "karma-phantomjs-launcher": "^0.1.4",
+    "karma-webpack": "^1.5.0",
+    "mocha": "^2.2.4",
+    "mocha-loader": "^0.7.1",
+    "null-loader": "^0.1.1",
+    "style-loader": "^0.11.0",
+    "webpack": "^1.8.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@devops-tools.pearson.com/aegis/cards-reference-implementation.git"
+  },
+  "keywords": [
+    "cards",
+    "reference"
+  ],
+  "author": "Rich Winn",
+  "license": "ISC"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "o-imagecard",
+  "version": "0.0.1",
+  "authors": [
+    "Chen",
+    "Hung <Hung.Chen@Pearson.com>"
+  ],
+  "description": "a blank image card for adding images to a card",
+  "main": [
+    "main.scss",
+    "main.js"
+  ],
+  "keywords": [
+    "image",
+    "card",
+    "insights",
+    "cards"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}

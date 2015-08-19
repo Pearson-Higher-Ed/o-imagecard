@@ -1,0 +1,18 @@
+{
+    "description": "Image card for cards framework",
+    "origamiType": "module",
+    "origamiVersion": 1,
+    "support": "https://devops-tools.pearson.com/stash/projects/AEGIS/repos/imagecard/browse",
+    "supportStatus": "experimental",
+    "browserFeatures": {
+        "required": [
+            "classlist"
+        ]
+    },
+    "demos": [
+         {
+            "path": "/demos/ImageCardDemo.html",
+            "description": "Simple example of how to use image card"
+        }
+    ]
+}
