@@ -1,13 +1,13 @@
 module.exports = {
 	"options": {
 		"sass": "demos/src/ImageCardDemo.scss",
-		"bodyClasses": "o-hoverable-on",
-		"js": "demos/src/ImageCardDemo.js"
+		"bodyClasses": "o-hoverable-on"
 	},
 	"demos": [
 		{
 			"name": "ImageCardDemo",
-			"template": "demos/src/ImageCardDemo.mustache"
+			"template": "demos/src/ImageCardDemo.mustache",
+			"js": "demos/src/ImageCardDemo.js"
 		}
 	]
 };
