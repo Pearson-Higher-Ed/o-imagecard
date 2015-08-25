@@ -24,5 +24,8 @@
     "reference"
   ],
   "author": "Rich Winn",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "karma-requirejs": "^0.2.2"
+  }
 }
