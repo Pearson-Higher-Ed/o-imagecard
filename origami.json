@@ -11,9 +11,14 @@
     },
     "demos": [
          {
-            "path": "/demos/ImageCardDemo.html",
+            "path": "/demos/Small.html",
             "expanded":true,
             "description": "Simple example of how to use image card"
+        },
+        {
+            "path": "/demos/AllThree.html",
+            "expanded":true,
+            "description": "Simple example of how to use all 3 sizes of the image card"
         }
     ]
 }

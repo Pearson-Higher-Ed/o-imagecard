@@ -5,9 +5,14 @@ module.exports = {
 	},
 	"demos": [
 		{
-			"name": "ImageCardDemo",
-			"template": "demos/src/ImageCardDemo.mustache",
-			"js": "demos/src/ImageCardDemo.js"
+			"name": "Small",
+			"template": "demos/src/SmallCardDemo.mustache",
+			"js": "demos/src/SmallCardDemo.js"
+		},
+		{
+			"name": "AllThree",
+			"template": "demos/src/AllThreeCardDemo.mustache",
+			"js": "demos/src/AllThreeCardDemo.js"
 		}
 	]
 };

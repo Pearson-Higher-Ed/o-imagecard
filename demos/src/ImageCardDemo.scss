@@ -1,1 +1,27 @@
+$o-card-margintop: 0px;
+$o-card--small : 100px;
+$o-card--medium : 200px;
+$o-card--large: 400px;
+
 @import "../../main";
+
+.cardsmall {
+	float: left;
+	width: 100px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.cardmedium {
+	float: left;
+	width: 200px;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+.cardlarge {
+	float: left;
+	width: 400px;
+	margin-right: 5px;
+	margin-left: 5px;
+}

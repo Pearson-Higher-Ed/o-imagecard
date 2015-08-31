@@ -24,5 +24,8 @@
     "test",
     "tests"
   ],
-  "private": true
+  "private": true,
+  "dependencies": {
+    "o-card": "~0.0.1"
+  }
 }
