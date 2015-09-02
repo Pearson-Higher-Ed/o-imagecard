@@ -15,4 +15,3 @@ new ImageCard("#cardDiv2", json);
 // From the README to make sure the example works
 var json = { "src" : "../src/large.png", "size": "large" };
 new ImageCard("#cardDiv3", json);
-
