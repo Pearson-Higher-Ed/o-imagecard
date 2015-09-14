@@ -6,13 +6,13 @@
 var assert = require("assert");
 var ImageCard = require("../src/js/o-imagecard.js");
 
-describe("Percent Card", function () {
+describe("Image Card", function () {
 	describe("New Object Instance", function(){
-			it("should be created with just a data element in the json payload.", function() {
-				var json = { data:"http://imageurl" };
-				var sut = new ImageCard(json);
-				assert.equal(sut._data instanceof HTMLElement, true);
-				assert.equal(sut._data.src, "http://imageurl/");
+			it("should be created with just a data src element in the json payload.", function() {
+				var json = { src:"http://imageurl" };
+				var sut = new ImageCard(document.createElement("div"), json);
+				assert.notEqual(sut.card, undefined);
+				assert.equal(sut.card instanceof HTMLElement, true);
 			});
 	});
 });

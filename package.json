@@ -8,6 +8,9 @@
     "type": "git",
     "url": "ssh://git@devops-tools.pearson.com/aegis/cards-reference-implementation.git"
   },
+  "scripts": {
+    "test": "./node_modules/karma/bin/karma start karma.conf.js"
+  },
   "keywords": [
     "cards",
     "reference"

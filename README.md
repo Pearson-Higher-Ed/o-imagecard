@@ -5,13 +5,12 @@ A simple card that places an image div
 ## Use
 
 To use, create a new instance of the ImageCard with a JSON configuration payload with the location of where the image lives.
-Next, use webpack to pull in the CSS and js. Simply calling the card directly with vanilla JS will not work.  See the demo for an example of use.
 
 The JSON parameters are as follows:
 
+	element (required): the dom element to attach the newly created image card
 	data (required): The string for src of the image
 
-This card works by building the card in a DOM node and then returning that node when .getDomNode() is called.
 
 ### Example HTML
     <style>
@@ -19,10 +18,8 @@ This card works by building the card in a DOM node and then returning that node 
     </style>
 	<div id="cardDiv"></div>
 	<script>
-	    var json = { "data" : "http://images.google.com/image1234" };
-        var cardInstance = new ImageCard(json);
-        var targetElement = document.querySelector("#cardDiv");
-        targetElement.appendChild(cardInstance.getDomNode());
+	   	var json = { "src" : "../src/small.png", "size": "small" };
+		new ImageCard("#cardDiv1", json);
 	</script>
 
 
