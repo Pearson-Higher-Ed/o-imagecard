@@ -1,4 +1,4 @@
-# Image Card [![Build Status](https://travis-ci.org/Pearson-Higher-Ed/o-imagecard.svg)](https://travis-ci.org/Pearson-Higher-Ed/o-imagecard.svg)
+# Image Card [![Build Status](https://travis-ci.org/Pearson-Higher-Ed/o-imagecard.svg)](https://travis-ci.org/Pearson-Higher-Ed/o-imagecard)
 
 A simple card that places an image div
 
